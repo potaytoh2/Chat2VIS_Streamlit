@@ -12,8 +12,13 @@ pip install -r requirements.txt
 
 Third, fill in the .env file with your OPEN AI API key
 
+Fourth, you want to put in whatever source documents you have within the sourceDocuments folder and run vector_gen.py
+```
+python3 vector_gen.py
+```
+This will convert the documents into vector embeddings to be stored within the vector Store
 
-Fourth, run the code
+Lastly, run the code
 ```
 streamlit run Chat2VIS.py
 ```
