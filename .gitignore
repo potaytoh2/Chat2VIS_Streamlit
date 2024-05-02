@@ -1,0 +1,45 @@
+# Ignore compiled files
+*.class
+*.o
+*.pyc
+
+# Ignore dependencies
+/node_modules
+/.venv
+/myenv
+
+# Ignore IDE files
+.idea
+.vscode
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+
+# Ignore build artifacts
+/build
+/dist
+
+# Ignore cache files
+__pycache__/
+.cache/
+
+# Ignore generated documentation
+/docs
+
+# Ignore user-specific files
+*.bak
+*.swp
+*.tmp
+
+# Ignore sensitive information
+secrets.yml
+
+#  ignore all folders within VectorStore
+VectorStore/*
+
+test.ipynb
